@@ -26,15 +26,15 @@ Gem::Specification.new do |s|
   s.name             = 'yam'
   s.version          = Yammer::Version
 
-  s.date             = Date.today.to_s
+  #s.date             = Date.today.to_s
   s.summary          = "Yammer API Client"
 
   s.description      = "A Ruby wrapper for accessing Yammer's REST API"
   s.authors          = ["Kevin Mutyaba"]
   s.email            = %q{kmutyaba@yammer-inc.com}
-  s.homepage         = 'http://yammer.github.io/yam'
+  #s.homepage         = 'http://yammer.github.io/yam'
   s.rubygems_version = Yammer::Version
-  s.files            = `git ls-files`.split("\n")
+  #s.files            = `git ls-files`.split("\n")
   s.require_paths    = ['lib']
 
   s.licenses         = ['MIT']
