@@ -24,9 +24,9 @@ require 'date'
 
 Gem::Specification.new do |s|
   s.name             = 'yam'
-  s.version          = Yammer::Version
+  #s.version          = Yammer::Version
 
-  #s.date             = Date.today.to_s
+  s.date             = Date.today.to_s
   s.summary          = "Yammer API Client"
 
   s.description      = "A Ruby wrapper for accessing Yammer's REST API"
